@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* CareerStack brand tokens (Brand Identity v1) */
+  --color-cs-blue: #1557b0; /* CareerStack Blue — primary */
+  --color-cs-navy: #0b1f3a; /* Deep Navy — headings, logo "Career" */
+  --color-cs-bright: #2563eb; /* Bright Blue — highlights & accents */
+  --color-cs-light: #eaf2ff; /* Light Blue — backgrounds & cards */
+  --color-cs-gray-dark: #1f2937; /* Dark Gray — body text */
+  --color-cs-gray-light: #f3f4f6; /* Light Gray — borders & secondary bg */
+  --color-cs-gold: #f5b301; /* Gold — Certifications toggle active, stars */
+
+  --font-sans: var(--font-inter), ui-sans-system, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-cs-gray-dark);
+  font-family: var(--font-sans);
+}
