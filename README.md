@@ -68,8 +68,7 @@ home on every page.
 
 1. Sign in to GitHub as **max@careerstack.us** (email + password — do not use
    the "Sign in with Google" button; it loops on Workspace accounts).
-2. Top-right **+** menu → **New organization** → Free plan → name it
-   `CareerStack` (skip if already created).
+2. The GitHub organization is `CareerStackRU` (created Nov 21, 2026).
 3. In the organization: **New repository** → name `careerstack`, Public or
    Private, and do **not** add a README/gitignore (this code already has
    them).
@@ -79,12 +78,13 @@ home on every page.
 From this folder on your machine:
 
 ```bash
-git remote add origin https://github.com/CareerStack/careerstack.git
+git remote add origin git@github.com:CareerStackRU/careerstack.git
 git branch -M main
 git push -u origin main
 ```
 
-(Adjust the URL if the org/repo name differs.)
+Access is via a repo deploy key (write access) held on the build machine —
+no account credentials are shared.
 
 ### 3. Import into Vercel
 
